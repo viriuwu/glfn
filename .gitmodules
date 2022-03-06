@@ -1,6 +1,6 @@
-[submodule "khronos/OpenGL-Registry"]
+[submodule "deps/OpenGL-Registry"]
 	path = deps/OpenGL-Registry
 	url = https://github.com/KhronosGroup/OpenGL-Registry
-[submodule "khronos/Vulkan-Headers"]
+[submodule "deps/Vulkan-Headers"]
 	path = deps/Vulkan-Headers
 	url = https://github.com/KhronosGroup/Vulkan-Headers.git
