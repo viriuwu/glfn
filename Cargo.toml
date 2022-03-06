@@ -1,0 +1,30 @@
+[package]
+name = "glfn"
+version = "0.0.2"
+authors = ["viri <hi@viri.moe>"]
+edition = "2021"
+rust-version = "1.57"
+#description = ""
+#documentation = ""
+#readme = "" <- needs to be .md, for crates.io
+license = "Zlib"
+keywords = ["gamedev", "gl", "gles", "opengl", "vulkan"]
+categories = [
+    "external-ffi-bindings",
+    "game-development",
+    "graphics",
+    "no-std",
+    "rendering::graphics-api",
+]
+include = [
+    "!/deps",
+    "/deps/OpenGL-Registry/xml/gl.xml",
+    "/deps/OpenGL-Registry/xml/glx.xml",
+    "/deps/OpenGL-Registry/xml/wgl.xml",
+    "/deps/Vulkan-Headers/registry/vk.xml",
+    "/src",
+]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
